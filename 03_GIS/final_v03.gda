@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>final_v03</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>final_v03.shp</path>
+            </datasource>
+            <layername>final_v03</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>FID_1</var>
+                <var>FID_1_1</var>
+                <var>FID_1_1_1</var>
+                <var>FID_1_1__1</var>
+                <var>FID_1_1__2</var>
+                <var>FID_1_1__3</var>
+                <var>FID_1_1__4</var>
+                <var>FID_1_1__5</var>
+                <var>FID_1_1__6</var>
+                <var>FID_1_1__7</var>
+                <var>NAME</var>
+                <var>GSS_CODE</var>
+                <var>HECTARES</var>
+                <var>NONLD_AREA</var>
+                <var>LB_GSS_CD</var>
+                <var>BOROUGH</var>
+                <var>POLY_ID</var>
+                <var>Count_</var>
+                <var>Count_1</var>
+                <var>Count_2</var>
+                <var>Count_3</var>
+                <var>Count_4</var>
+                <var>Count_5</var>
+                <var>Rock</var>
+                <var>Jazz</var>
+                <var>Folk</var>
+                <var>Indie</var>
+                <var>Soul</var>
+                <var>House</var>
+                <var>Count_6</var>
+                <var>Count_7</var>
+                <var>Count_8</var>
+                <var>Count_9</var>
+                <var>Classical</var>
+                <var>Reggae</var>
+                <var>Punk</var>
+                <var>Techno</var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>queen_1order</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>queen</weights_type>
+                        <order>1</order>
+                        <inc_lower_orders>false</inc_lower_orders>
+                        <path>queen_1order.gal</path>
+                        <id_variable>FID_1</id_variable>
+                        <symmetry>symmetric</symmetry>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>Count_1</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>

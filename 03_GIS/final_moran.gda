@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>final_moran</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>final_moran.shp</path>
+            </datasource>
+            <layername>final_moran</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>NAME</var>
+                <var>GSS_CODE</var>
+                <var>HECTARES</var>
+                <var>LB_GSS_CD</var>
+                <var>BOROUGH</var>
+                <var>POLY_ID</var>
+                <var>Count_</var>
+                <var>Count_1</var>
+                <var>Count_2</var>
+                <var>Count_3</var>
+                <var>Count_4</var>
+                <var>Count_5</var>
+                <var>Rock</var>
+                <var>Jazz</var>
+                <var>Folk</var>
+                <var>Indie</var>
+                <var>Soul</var>
+                <var>House</var>
+                <var>Count_6</var>
+                <var>Count_7</var>
+                <var>Count_8</var>
+                <var>Count_9</var>
+                <var>Classical</var>
+                <var>Reggae</var>
+                <var>Punk</var>
+                <var>Techno</var>
+                <var>Count_10</var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>nh15</title>
+                    <meta_info>
+                        <weights_type>custom</weights_type>
+                        <path>nh15.gwt</path>
+                        <id_variable>POLY_ID</id_variable>
+                    </meta_info>
+                </weights>
+                <weights>
+                    <title>final_moran</title>
+                    <meta_info>
+                        <weights_type>knn</weights_type>
+                        <dist_metric>euclidean</dist_metric>
+                        <dist_units>Degree</dist_units>
+                        <dist_values>centroids</dist_values>
+                        <num_neighbors>4</num_neighbors>
+                        <path>final_moran.gwt</path>
+                        <id_variable>GSS_CODE</id_variable>
+                        <symmetry>asymmetric</symmetry>
+                    </meta_info>
+                </weights>
+                <weights>
+                    <title>final_moran_1</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>threshold</weights_type>
+                        <dist_metric>euclidean</dist_metric>
+                        <dist_units>Degree</dist_units>
+                        <dist_values>centroids</dist_values>
+                        <threshold_val>0.02342022086277745</threshold_val>
+                        <path>final_moran.gwt</path>
+                        <id_variable>GSS_CODE</id_variable>
+                        <symmetry>symmetric</symmetry>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>HECTARES</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>

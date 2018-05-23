@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>jazz_test</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>jazz_test.shp</path>
+            </datasource>
+            <layername>jazz_test</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>index_left</var>
+                <var>_id</var>
+                <var>date</var>
+                <var>datetime</var>
+                <var>id</var>
+                <var>lastfm</var>
+                <var>name</var>
+                <var>popularity</var>
+                <var>time</var>
+                <var>populari_1</var>
+                <var>date_name</var>
+                <var>lat</var>
+                <var>lng</var>
+                <var>populari_2</var>
+                <var>followers_</var>
+                <var>danceabili</var>
+                <var>energy_med</var>
+                <var>key_mode</var>
+                <var>loudness_m</var>
+                <var>mode_mode</var>
+                <var>speechines</var>
+                <var>duration_m</var>
+                <var>instrument</var>
+                <var>duration_1</var>
+                <var>instrume_1</var>
+                <var>liveness_m</var>
+                <var>valence_me</var>
+                <var>duration_2</var>
+                <var>time_signa</var>
+                <var>geometry</var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>jazz_test</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>threshold</weights_type>
+                        <dist_metric>euclidean</dist_metric>
+                        <dist_units>Degree</dist_units>
+                        <dist_values>centroids</dist_values>
+                        <threshold_val>0.3026527833646989</threshold_val>
+                        <path>jazz_test.gwt</path>
+                        <id_variable>_id</id_variable>
+                        <symmetry>symmetric</symmetry>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
